@@ -1,0 +1,16 @@
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\bin\Debug\CSharpSample02.exe.config
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\bin\Debug\CSharpSample02.exe
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\bin\Debug\CSharpSample02.pdb
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.csprojAssemblyReference.cache
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\SampleApp.g.cs
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\App.g.cs
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02_MarkupCompile.cache
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02_MarkupCompile.lref
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\SampleApp.baml
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.g.resources
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.Properties.Resources.resources
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.csproj.GenerateResource.cache
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.csproj.CoreCompileInputs.cache
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.exe
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\CSharpSample02.pdb
+C:\Users\202007\Desktop\CSharpSample02\CSharpSample02\CSharpSample02\obj\Debug\GeneratedInternalTypeHelper.g.cs
