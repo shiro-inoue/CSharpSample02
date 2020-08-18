@@ -8,24 +8,54 @@
         Title="SampleApp Phase3" Height="305" Width="385">
     <Window.Resources>
         <local:ColorConverter x:Key="colorConverter" />
+
+        <Style TargetType="Label">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="10,10,10,10"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="10,10,10,10"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="30"/>
+        </Style>
+
+        <Style TargetType="Slider">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="10,10,10,10"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Maximum" Value="255"/>
+            <Setter Property="TickPlacement" Value="TopLeft"/>
+            <Setter Property="TickFrequency" Value="16"/>
+            <Setter Property="IsSnapToTickEnabled" Value="True"/>
+        </Style>
+
     </Window.Resources>
     
     <Grid>
         <StackPanel Orientation="Vertical">
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="labelR" Content="Color Red:" Height="30" Width="80" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Top"/>
-                <TextBox x:Name="textBoxR" HorizontalAlignment="Left" Height="30" Margin="10,10,10,10" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Text="{Binding ElementName=sliderR, Path=Value}"/>
-                <Slider x:Name="sliderR" HorizontalAlignment="Left" Height="30" Margin="10,10,10,10" VerticalAlignment="Top" Width="200" Maximum="255" TickPlacement="TopLeft" TickFrequency="16" IsSnapToTickEnabled="True"/>
+                <Label x:Name="labelR" Content="Color Red:"/>
+                <TextBox x:Name="textBoxR" Text="{Binding ElementName=sliderR, Path=Value}"/>
+                <Slider x:Name="sliderR" Value="0"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="labelG" Content="Color Green:" Height="30" Width="80" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Top"/>
-                <TextBox x:Name="textBoxG" HorizontalAlignment="Left" Height="30" Margin="10,10,10,10" TextWrapping="Wrap" Text="{Binding ElementName=sliderG, Path=Value}" VerticalAlignment="Top" Width="30"/>
-                <Slider x:Name="sliderG" HorizontalAlignment="Left" Height="30" Margin="10,10,10,10" VerticalAlignment="Top" Width="200" Maximum="255" TickPlacement="TopLeft" TickFrequency="16" Value="128" IsSnapToTickEnabled="True"/>
+                <Label x:Name="labelG" Content="Color Green:"/>
+                <TextBox x:Name="textBoxG" Text="{Binding ElementName=sliderG, Path=Value}"/>
+                <Slider x:Name="sliderG" Value="128"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="labelB" Content="Color Blue:" Height="30" Width="80" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Top"/>
-                <TextBox x:Name="textBoxB" HorizontalAlignment="Left" Height="30" Margin="10,10,10,10" TextWrapping="Wrap" Text="{Binding ElementName=sliderB, Path=Value}" VerticalAlignment="Top" Width="30"/>
-                <Slider x:Name="sliderB" HorizontalAlignment="Left" Height="30" Margin="10,10,10,10" VerticalAlignment="Top" Width="200" Maximum="255" TickPlacement="TopLeft" TickFrequency="16" Value="255" IsSnapToTickEnabled="True"/>
+                <Label x:Name="labelB" Content="Color Blue:"/>
+                <TextBox x:Name="textBoxB" Text="{Binding ElementName=sliderB, Path=Value}"/>
+                <Slider x:Name="sliderB" Value="255"/>
             </StackPanel>
 
             <Rectangle x:Name="rectangleView" HorizontalAlignment="Left" Margin="10,10,10,10" Height="100" Stroke="Black" VerticalAlignment="Top" Width="350">
