@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSharpSample02"
     mc:Ignorable="d"
-        Title="SampleApp Phase2" Height="305" Width="385">
+        Title="SampleApp Phase3" Height="305" Width="385">
     <Window.Resources>
         <local:ColorConverter x:Key="colorConverter" />
     </Window.Resources>
